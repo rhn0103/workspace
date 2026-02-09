@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background: #f9fafb;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.react-flow__attribution {
+  font-size: 10px;
+}
+
+.react-flow__edge-path {
+  stroke-width: 2;
+}
